@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;500&family=Sacramento&display=swap');
+
+body {
+    font-family: 'Merriweather', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    overflow: clip;
+}
+
+.intro {
+    display: block;
+    text-align: center;
+    height: 100vh;
+}
+
+.intro-h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+.intro-h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.intro-img {
+    margin-top: 150px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    margin: 100px 0;
+}
+
+.profile-pic {
+    border: 1px solid #000;
+    border-radius: 100%;
+    width: 175px;
+    height: 175px;
+}
+
+.profile-h2 {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    font-size: 3.5rem;
+    top: 50px;
+    color: #40514e;
+}
+
+.profile-p {
+    color: #4b4244;
+    top: 100px;
+}
+
+/* .skills */
+
+.skills {
+    display: block;
+    text-align: center;
+    height: auto;
+}
+
+.skills > h2 {
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+.nega {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    /* row-gap:2rem;
+    column-gap: 2rem; */
+    gap: 2rem;
+}
+
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.contact {
+    display: block;
+    text-align: center;
+    height: 500px;
+}
+
+.contact-h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+}
+
+.contact-h3 {
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+.contact-p {
+    margin-top: 100px;
+    font-size: 1.5rem;
+}
+
+.btn {
+    border: 1px solid transparent;
+    border-radius: 30%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: #000;
+    margin: 10px 20px 10px 20px;
+}
+
+.contact-btn {
+    background-color: #66bfbf;
+}
+
+
+.white {
+    color: white;
+}
+
+
+.footer {
+    background-color: #66bfbf;
+    display: block;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    height: 50px;
+}
+
+.footer-links-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-links {
+    /* margin: 5px 40px; */
+    color: cyan;
+    text-decoration: none;
+}
+
+.footer-h3 {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 0.75rem;
+}
